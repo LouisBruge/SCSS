@@ -1,0 +1,72 @@
+$white: #FFF;
+$orange: #FF5B13;
+$yellow: #FFE415;
+
+@font-face {
+  font-family: aniron;
+  src: url("../pete-klassen_aniron/anirm___.ttf");
+}
+
+@mixin mainSection {
+   background-color: $orange;
+   font-size: 1.5em;
+   font-weight: bold;
+   font-family: aniron;
+  li {
+      color: $white;
+      text-align: left;
+  }
+}
+
+@mixin ring ($color, $widthBorder, $height) {
+  background-color: transparent;
+  border-radius: 50%;
+  border-width: $widthBorder;
+  border-style: solid;
+  border-color: $color;
+  width: $height;
+  height: $height;
+  @if $height > 2em {
+   box-shadow: 0.1em 0.1em 0.2em 0.01em darken($color, 20%) inset, 0.1em 0.1em 0.2em 0.05em darken($color, 20%);
+  }
+}
+
+header {
+  @include mainSection;
+}
+
+section {
+  #greatRing {
+      @include ring ($yellow, 0.90em, 10em);
+    }
+
+  .smallRing {
+    @include ring ($orange, 0.30em, 3em);
+  }
+
+  p {
+    font-size: 2em;
+    font-family: aniron;
+  }
+}
+
+$heightRing : 2em;
+$widthRing: 0.2em;
+$marginRing: -0.5em;
+@for $i from 1 through 6 {
+  #rings div:nth-child(#{$i}) {
+    $heightRing: $heightRing + 0.5em;
+    $widthRing: $widthRing + 0.03em;
+    @include ring (#222, $widthRing, $heightRing);
+    $marginRing: $marginRing - 0.025em;
+    margin: 0.5em $marginRing;
+  }
+}
+
+footer {
+  @include mainSection;
+
+  li {
+    list-style-type: none;
+  }
+}

@@ -1,0 +1,125 @@
+@font-face {
+  font-family: aniron;
+  src: url("../pete-klassen_aniron/anirm___.ttf");
+}
+header {
+  background-color: #FF5B13;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: aniron;
+}
+header li {
+  color: #FFF;
+  text-align: left;
+}
+
+section #greatRing {
+  background-color: transparent;
+  border-radius: 50%;
+  border-width: 0.9em;
+  border-style: solid;
+  border-color: #FFE415;
+  width: 10em;
+  height: 10em;
+  box-shadow: 0.1em 0.1em 0.2em 0.01em #ae9a00 inset, 0.1em 0.1em 0.2em 0.05em #ae9a00;
+}
+section .smallRing {
+  background-color: transparent;
+  border-radius: 50%;
+  border-width: 0.3em;
+  border-style: solid;
+  border-color: #FF5B13;
+  width: 3em;
+  height: 3em;
+  box-shadow: 0.1em 0.1em 0.2em 0.01em #ac3400 inset, 0.1em 0.1em 0.2em 0.05em #ac3400;
+}
+section p {
+  font-size: 2em;
+  font-family: aniron;
+}
+
+#rings div:nth-child(1) {
+  background-color: transparent;
+  border-radius: 50%;
+  border-width: 0.23em;
+  border-style: solid;
+  border-color: #222;
+  width: 2.5em;
+  height: 2.5em;
+  box-shadow: 0.1em 0.1em 0.2em 0.01em black inset, 0.1em 0.1em 0.2em 0.05em black;
+  margin: 0.5em -0.525em;
+}
+
+#rings div:nth-child(2) {
+  background-color: transparent;
+  border-radius: 50%;
+  border-width: 0.26em;
+  border-style: solid;
+  border-color: #222;
+  width: 3em;
+  height: 3em;
+  box-shadow: 0.1em 0.1em 0.2em 0.01em black inset, 0.1em 0.1em 0.2em 0.05em black;
+  margin: 0.5em -0.55em;
+}
+
+#rings div:nth-child(3) {
+  background-color: transparent;
+  border-radius: 50%;
+  border-width: 0.29em;
+  border-style: solid;
+  border-color: #222;
+  width: 3.5em;
+  height: 3.5em;
+  box-shadow: 0.1em 0.1em 0.2em 0.01em black inset, 0.1em 0.1em 0.2em 0.05em black;
+  margin: 0.5em -0.575em;
+}
+
+#rings div:nth-child(4) {
+  background-color: transparent;
+  border-radius: 50%;
+  border-width: 0.32em;
+  border-style: solid;
+  border-color: #222;
+  width: 4em;
+  height: 4em;
+  box-shadow: 0.1em 0.1em 0.2em 0.01em black inset, 0.1em 0.1em 0.2em 0.05em black;
+  margin: 0.5em -0.6em;
+}
+
+#rings div:nth-child(5) {
+  background-color: transparent;
+  border-radius: 50%;
+  border-width: 0.35em;
+  border-style: solid;
+  border-color: #222;
+  width: 4.5em;
+  height: 4.5em;
+  box-shadow: 0.1em 0.1em 0.2em 0.01em black inset, 0.1em 0.1em 0.2em 0.05em black;
+  margin: 0.5em -0.625em;
+}
+
+#rings div:nth-child(6) {
+  background-color: transparent;
+  border-radius: 50%;
+  border-width: 0.38em;
+  border-style: solid;
+  border-color: #222;
+  width: 5em;
+  height: 5em;
+  box-shadow: 0.1em 0.1em 0.2em 0.01em black inset, 0.1em 0.1em 0.2em 0.05em black;
+  margin: 0.5em -0.65em;
+}
+
+footer {
+  background-color: #FF5B13;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: aniron;
+}
+footer li {
+  color: #FFF;
+  text-align: left;
+}
+footer li {
+  list-style-type: none;
+}
